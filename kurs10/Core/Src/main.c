@@ -110,6 +110,7 @@ int main(void)
       // włącz diodę
     	SPI_Transmit(MCP_OLAT, 0x01);
 
+    	//change
     	uint8_t reg = 0x0A;
     	uint8_t value = 0;
 
